@@ -1,0 +1,114 @@
+/* -------------Customise Fonts START----------------- */
+.custom-colour-dark-green {
+    color: #5d6a3a !important;
+}
+
+/* -------------Customise Fonts END----------------- */
+
+
+/*------- Nav ------*/
+
+.brand-font {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+
+.navbar-custom, .bg-custom {
+    background-color: #c9c9b8;
+}
+
+/* Carsouel */
+.carousel-item {
+    position: relative;
+    max-height: 32rem;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+}
+
+#cart-icon {
+    margin-right: 2em;
+}
+.nav-item {
+    text-decoration: none !important;; 
+    color: black !important;;
+}
+.navbar-nav .nav-link {
+    text-decoration: none !important;
+}
+nav ul li a {
+    text-decoration: none !important;
+}
+
+
+.btn-primary {
+    background-color: #46542c !important;
+    border-radius: 0 !important;
+    border:2px solid #46542c !important;
+}
+.btn-primary:hover {
+    background-color: #2f381f !important;
+    border-radius: 0 !important;
+    border:2px solid #2f381f !important;
+}
+.btn-secondary {
+    background-color: #8d965f !important;
+    border-radius: 0 !important;
+    border:2px solid #8d965f !important;
+}
+.btn-secondary:hover {
+    background-color: #727952 !important;
+    border-radius: 0 !important;
+    border:2px solid #727952 !important;
+}
+
+/* ------- Card Styles ------- */
+.card {
+    border: none;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-overlay {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3));
+    color: #ffffff;
+    display: flex;
+    align-items: center; 
+}
+.card-img-overlay h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #ffffff;
+    display: flex;
+    text-align: center; 
+}
+.card-effect {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-effect:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+.plant-img{
+    object-fit: cover;
+    height: 25rem;
+}
